@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="math_container">
+        <span id="calculus_span"></span>
+    </div>
+
+    <button class="buttons hidden"> C </button>
+    <button onclick="clearScreen()" class="buttons"> C </button>
+    <button onclick="removeLastSymbol()" class="buttons"> Del </button>
+    <button onclick="appendSymbol('/')" class="buttons"> / </button>
+    </br>
+    <button onclick="appendSymbol(7)" class="buttons"> 7 </button>
+    <button onclick="appendSymbol(8)" class="buttons"> 8 </button>
+    <button onclick="appendSymbol(9)" class="buttons"> 9 </button>
+    <button onclick="appendSymbol('*')" class="buttons"> X </button>
+    </br>
+    <button onclick="appendSymbol(4)" class="buttons"> 4 </button>
+    <button onclick="appendSymbol(5)" class="buttons"> 5 </button>
+    <button onclick="appendSymbol(6)" class="buttons"> 6 </button>
+    <button onclick="appendSymbol('-')" class="buttons"> - </button>
+    </br>
+    <button onclick="appendSymbol(1)" class="buttons"> 1 </button>
+    <button onclick="appendSymbol(2)" class="buttons"> 2 </button>
+    <button onclick="appendSymbol(3)" class="buttons"> 3 </button>
+    <button onclick="appendSymbol('+')" class="buttons"> + </button>
+    </br>
+    <button class="buttons hidden"> +- </button>
+    <button onclick="appendSymbol(0)" class="buttons"> 0 </button>
+    <button onclick="appendSymbol('.')" class="buttons"> . </button>
+    <button onclick="showResult()" class="buttons"> = </button>
+
+</body>
+
+<script src="app.js"> </script>
+
+</html>
